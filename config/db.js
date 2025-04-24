@@ -1,7 +1,7 @@
 const { MongoClient, GridFSBucket } = require('mongodb');
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb+srv://Joy:andr@2006@stackysparks.mn9tyeo.mongodb.net/EduViz';
+const mongoURI = 'mongodb+srv://joyandrew006:andr2006@cluster0.ovsoj.mongodb.net/3d_models_db';
 let db, gfs;
 
 MongoClient.connect(mongoURI)
